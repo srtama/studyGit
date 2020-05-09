@@ -1,40 +1,4 @@
-# n,m = map(int,input().split(' '))
-# a_i = [input() for i in range(n)]
-# b_i = [input() for i in range(m)]
-
-# for i in range(n):
-#     ans = 0
-#     a = a_i[i].split(' ')
-#     for j in range(m):
-#         ans = ans + int(a[j]) * int(b_i[j])
-#     print(ans)
-
-# while True:
-#     a,b,c = map(int, input().split(' '))
-#     score = []
-
-#     if a==-1 and b==-1 and c==-1:
-#         break
-#     else:
-#         if a==-1 or b==-1:
-#             score = 'F'
-#         elif a+b >= 80:
-#             score = 'A'
-#         elif a+b >= 65:
-#             score = 'B'
-#         elif a+b >= 50:
-#             score = 'C'
-#         elif a+b >= 30:
-#             if c >= 50:
-#                 score = 'C'
-#             else:
-#                 score = 'D'
-#         else:
-#             score = 'F'
-
-#     print(score)
-
-
+# google 回文生成
 letters = [chr(i) for i in range(97, 97+26)]
 k = int(input())    # kー1番目のアルファベットまで使用
 c_list = input()     # 入力文字列
